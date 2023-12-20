@@ -187,7 +187,7 @@ h2 {
     align-items: center;
 }
 
-.sidebar-menu.active .border-circle {
+.active .sidebar-menu .border-circle {
     border: 1px solid #daff53;
 }
 
@@ -227,7 +227,7 @@ h2 {
     display: block;
 }
 
-.sidebar-menu.active p {
+.active .sidebar-menu p {
     display: block;
 }
 
@@ -878,6 +878,10 @@ html {
 #toggle-about {
     display: none;
 }
+
+#section-gallary {
+    display: none;
+}
 /* Button End */
 
 /* Image Start */
@@ -945,4 +949,50 @@ html {
     -ms-transition: 0.5s ease all;
     -o-transition: 0.5s ease all;
     transform: translate(0, -50%);
+}
+
+/* Slider */
+.slide {
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.slick-dots {
+    position: relative !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.custom-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebar-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.slick-btn {
+    font-size: 24px;
+    margin-left: 6px;
 }
