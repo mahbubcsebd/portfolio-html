@@ -1,6 +1,14 @@
 @media screen and (max-width: 1600px) {
     .hero-container-img {
+        width: 53% !important;
+    }
+
+    .hero-container-img.about-hero-img {
         width: 30% !important;
+    }
+
+    .explore-btn {
+        bottom: 130px;
     }
 
     .section-lg-img-box {

@@ -862,6 +862,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70%;
+}
+
+.hero-container-img.about-hero-img {
     width: 45%;
 }
 
@@ -1002,7 +1006,16 @@ html {
 /* #section-pensiero-details {
     display: none;
 } */
-#section-gallary,
+
+#section-bello-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+/* #section-gallary, */
 #section-pensiero-details,
 #section-penso-details,
 #section-volto-details,
