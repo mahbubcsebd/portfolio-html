@@ -23,6 +23,8 @@
     <!-- Slick Slider -->
     <link rel="stylesheet" href="assets/css/slick-theme.css">
     <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- Modal Video -->
+    <link rel="stylesheet" href="assets/css/modal-video.min.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
@@ -31,9 +33,9 @@
 
 <body id="body">
     <!-- Pre Loader -->
-    <!-- <div id="preloader">
+    <div id="preloader">
         <img class="loading-img" src="assets/images/loader.gif" alt="loading">
-    </div> -->
+    </div>
     <!-- Pre Loader -->
 
 
@@ -162,9 +164,9 @@
                             <img id="explore-img" class="" src="assets/images/home.png" alt="home">
                             <button class="explore-btn">Esplora</button>
                         </div>
-                        <div class="hero-container-img profile-hero-img">
+                        <!-- <div class="hero-container-img profile-hero-img">
                             <img id="explore-img" class="" src="assets/images/profile.png" alt="home">
-                        </div>
+                        </div> -->
                         <div class="hero-container-img about-hero-img">
                             <img class="" src="assets/images/about.png" alt="About Me">
                         </div>
@@ -175,7 +177,7 @@
 
 
 
-        <!-- Gallary Section Start -->
+        <!-- All Hero Section Start -->
         <section id="section-gallary" class="section">
             <div class="hero-container">
                 <div class="container">
@@ -276,10 +278,12 @@
                                     <div class="hero-content">
                                         <div class="section-lg-img-box mouve-img-box">
                                             <img class="w-100" src="assets/images/muove.png" alt="mouve">
-                                            <div class="section-hover-img-box mouve-sm-img-box">
-                                                <img class="mouve-sm-img" src="assets/images/mouve-sm.png"
-                                                    alt="mouve sm">
-                                            </div>
+                                            <button class="js-modal-btn" data-video-id="liJVSwOiiwg">
+                                                <div class="section-hover-img-box mouve-sm-img-box">
+                                                    <img class="mouve-sm-img" src="assets/images/mouve-sm.png"
+                                                        alt="mouve sm">
+                                                </div>
+                                            </button>
                                         </div>
                                         <div class="hero-text-content">
                                             <h2 class="hero-title">Hai mai pensato di dare letteralmente vita alle tue
@@ -297,10 +301,10 @@
                                     <div class="hero-content">
                                         <div class="section-lg-img-box pensiero-img-box">
                                             <img class="w-100" src="assets/images/pensiero.png" alt="pensiero">
-                                            <a href="#" class="section-hover-img-box pensiero-sm-img-box">
+                                            <button class="section-hover-img-box pensiero-sm-img-box">
                                                 <img class="pensiero-sm-img" src="assets/images/pensiero-sm-1.png"
                                                     alt="pensiero sm">
-                                            </a>
+                                                </bu>
                                         </div>
                                         <div class="hero-text-content">
                                             <h2 class="hero-title">Ogni desiderio del cliente, prima di essere
@@ -339,10 +343,10 @@
                                     <div class="hero-content">
                                         <div class="section-lg-img-box volto-img-box">
                                             <img class="w-100" src="assets/images/volto.png" alt="volto">
-                                            <a href="#" class="section-hover-img-box volto-sm-img-box">
+                                            <button class="section-hover-img-box volto-sm-img-box">
                                                 <img class="volto-sm-img" src="assets/images/volto-sm-1.png"
                                                     alt="volto sm">
-                                            </a>
+                                            </button>
                                         </div>
                                         <div class="hero-text-content">
                                             <h2 class="hero-title">Regaliamo un'identità al tuo lavoro.
@@ -361,10 +365,10 @@
                                         <div class="section-lg-img-box monaco-img-box">
                                             <img class="w-100 monaco-lg-img" src="assets/images/monaco.png"
                                                 alt="monaco">
-                                            <a href="#" class="section-hover-img-box monaco-sm-img-box">
+                                            <button class="section-hover-img-box monaco-sm-img-box">
                                                 <img class="monaco-sm-img" src="assets/images/monaco-sm-1.png"
                                                     alt="monaco sm">
-                                            </a>
+                                            </button>
                                         </div>
                                         <div class="hero-text-content">
                                             <h2 class="hero-title">Il contenitore è utile quanto il contenuto perché lo
@@ -381,10 +385,10 @@
                                     <div class="hero-content">
                                         <div class="section-lg-img-box nova-img-box">
                                             <img class="w-100 nova-lg-img" src="assets/images/nova.png" alt="nova">
-                                            <a href="#" class="section-hover-img-box nova-sm-img-box">
+                                            <button class="section-hover-img-box nova-sm-img-box">
                                                 <img class="nova-sm-img" src="assets/images/nova-sm-1.png"
                                                     alt="nova sm">
-                                            </a>
+                                            </button>
                                         </div>
                                         <div class="hero-text-content">
                                             <h2 class="hero-title">È normale essere in confusione,
@@ -401,10 +405,10 @@
                                     <div class="hero-content">
                                         <div class="section-lg-img-box bello-img-box">
                                             <img class="w-100 bello-lg-img" src="assets/images/bello.png" alt="bello">
-                                            <a href="#" class="section-hover-img-box bello-sm-img-box">
+                                            <button class="section-hover-img-box bello-sm-img-box">
                                                 <img class="bello-sm-img" src="assets/images/bello-sm-1.png"
                                                     alt="bello sm">
-                                            </a>
+                                            </button>
                                         </div>
                                         <div class="hero-text-content">
                                             <h2 class="hero-title">Tutti sono in grado di mettersi in vetrina,
@@ -419,7 +423,1286 @@
                 </div>
             </div>
         </section>
-        <!-- Gallary Section End -->
+        <!-- All Hero Section End -->
+
+
+        <!-- All Details Section Start -->
+
+        <!-- Pensiero Details Section Start -->
+        <section id="section-pensiero-details" class="section">
+            <div class="content-page">
+                <div class="slidebar-box">
+                    <div class="container">
+                        <div class="slidebox-top">
+                            <div class="slidebox-left">
+                                <div class="button-box">
+                                    <button id="back-to-hero" class="sidebar-toggle-btn back-to-hero"><i
+                                            class="fa-solid fa-x"></i></button>
+                                </div>
+                            </div>
+                            <div class="slidebox-middle">
+                                <h2 class="slidebar-top-title">IL PENSIERO PRENDE FORMA</h2>
+                            </div>
+                            <div class="slidebox-right">
+                                <div class="language-btn-box">
+                                    <button type="button" class="language-btn active">EN</button>
+                                    <button type="button" class="language-btn">IT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <hr class="divider">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 sidebar-bullet">
+                                <div class="sidebar-menu-list">
+                                    <button class="prev-slide slick-btn">
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </button>
+                                    <ul class="custom-dots">
+                                        <li class="active">
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>EPPUR SI MUOVE </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL PENSIERO PRENDE FORMA </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>CI PENSO IO </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL VOLTO DELLA TUA AZIENDA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>L'ABITO FA IL MONACO</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>VITA NOVA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>È BELLO CIÒ CHE È BELLO, NON CIÒ CHE PIACE</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                    <button class="next-slide slick-btn">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 custom-width-set">
+                                <div class="pensiero-content-wrapper">
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Rivista d’arte contemporanea
+                                            <span>“Segno</span>
+                                            2020”
+                                            <span>Formato</span> 31,5 x 17 cm
+                                        </h3>
+                                        <div class="pensiero-slider-3">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/segno-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Magazine Cover</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/segno-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Back Cover Advertising</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/segno-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Article Exhibition activities Part I</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/segno-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Magazine Cover</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/segno-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Back Cover Advertising</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/segno-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Article Exhibition activities Part I</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Guida turistica <span>“Florence”
+                                                Formato</span> 21 x 15 cm
+                                        </h3>
+                                        <div class="pensiero-slider-4">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/florence-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">CityGuide Cover</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/florence-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Summary</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/florence-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Florence Background</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/florence-4.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">David</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/florence-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">CityGuide Cover</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/florence-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Summary</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/florence-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Florence Background</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/florence-4.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">David</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Flyer Event Planning <span>“Piper”
+                                                Formato</span> 1920 x 1080 px
+                                        </h3>
+                                        <div class="pensiero-slider-4">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/piper-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/piper-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/piper-3.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/piper-4.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/piper-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/piper-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/piper-3.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/piper-4.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Flyer Event Planning <span>“Nuovo Club”
+                                                Formato</span> 1920 x 1080 px
+                                        </h3>
+                                        <div class="pensiero-slider-4">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/nouvo-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Samuele Sartini</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/nouvo-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Raffa FL</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/nouvo-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Nicola Zucchi</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/nouvo-4.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Djs from Mars</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/nouvo-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Samuele Sartini</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/nouvo-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Raffa FL</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/nouvo-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Nicola Zucchi</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/nouvo-4.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Djs from Mars</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Flyer Event Planning <span>“Movida Events”
+                                                Formato</span> 1920 x 1080 px
+                                        </h3>
+                                        <div class="pensiero-slider-4">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/movida-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/movida-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/movida-3.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/movida-4.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/movida-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/movida-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/movida-3.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/movida-4.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Flyer Selection <span>“Brevis Enosteria”
+                                                Formato</span> 1920 x 1080 px
+                                        </h3>
+                                        <div class="pensiero-slider-4">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/brevis-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/brevis-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/brevis-3.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/brevis-4.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/brevis-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/brevis-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/brevis-3.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/brevis-4.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pensiero Details Section End -->
+
+
+
+        <section id="section-penso-details" class="section">
+            <div class="content-page">
+                <div class="slidebar-box">
+                    <div class="container">
+                        <div class="slidebox-top">
+                            <div class="slidebox-left">
+                                <div class="button-box">
+                                    <button id="back-to-hero" class="sidebar-toggle-btn back-to-hero"><i
+                                            class="fa-solid fa-x"></i></button>
+                                </div>
+                            </div>
+                            <div class="slidebox-middle">
+                                <h2 class="slidebar-top-title">CI PENSO IO</h2>
+                            </div>
+                            <div class="slidebox-right">
+                                <div class="language-btn-box">
+                                    <button type="button" class="language-btn active">EN</button>
+                                    <button type="button" class="language-btn">IT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <hr class="divider">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 sidebar-bullet">
+                                <div class="sidebar-menu-list">
+                                    <button class="prev-slide slick-btn">
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </button>
+                                    <ul class="custom-dots">
+                                        <li class="active">
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>EPPUR SI MUOVE </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL PENSIERO PRENDE FORMA </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>CI PENSO IO </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL VOLTO DELLA TUA AZIENDA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>L'ABITO FA IL MONACO</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>VITA NOVA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>È BELLO CIÒ CHE È BELLO, NON CIÒ CHE PIACE</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                    <button class="next-slide slick-btn">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 custom-width-set">
+                                <div class="pensiero-content-wrapper">
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Illustrazioni e Campagna pubblicitaria
+                                            <span>“ Ambientale”
+                                                Formato</span> 30 x 20 cm / Company <span>Esacom</span> VR
+                                        </h3>
+                                        <div class="pensiero-slider-4">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/ambientale-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Miss. Paper</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/ambientale-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Bulky</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/ambientale-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Miss. Plastic</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/ambientale-4.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Mr. Dry</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/ambientale-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Miss. Paper</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/ambientale-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Bulky</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/ambientale-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Miss. Plastic</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/ambientale-4.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Mr. Dry</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title"><span>Mockup
+                                                Formato</span> 30 x 20 cm
+                                        </h3>
+                                        <div class="pensiero-slider-4">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/mockup-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Miss. Paper</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/mockup-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Bulky</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/mockup-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Miss. Plastic</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/mockup-4.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Mr. Dry</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/mockup-1.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Miss. Paper</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/mockup-2.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Bulky</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/mockup-3.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Miss. Plastic</h2>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img src="assets/images/mockup-4.png" alt="segno">
+                                                </div>
+                                                <h2 class="segno-title">Mr. Dry</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title"><span>Cartoon Mockup
+                                                Formato</span> 1920 x 1080 px
+                                        </h3>
+                                        <div class="pensiero-slider-1">
+                                            <div class="single-education-box">
+                                                <div class="single-education-img">
+                                                    <img class="w-100" src="assets/images/education.png"
+                                                        alt="education">
+                                                </div>
+                                            </div>
+                                            <div class="single-education-box">
+                                                <div class="single-education-img">
+                                                    <img class="w-100" src="assets/images/education.png"
+                                                        alt="education">
+                                                </div>
+                                            </div>
+                                            <div class="single-education-box">
+                                                <div class="single-education-img">
+                                                    <img class="w-100" src="assets/images/education.png"
+                                                        alt="education">
+                                                </div>
+                                            </div>
+                                            <div class="single-education-box">
+                                                <div class="single-education-img">
+                                                    <img class="w-100" src="assets/images/education.png"
+                                                        alt="education">
+                                                </div>
+                                            </div>
+                                            <div class="single-education-box">
+                                                <div class="single-education-img">
+                                                    <img class="w-100" src="assets/images/education.png"
+                                                        alt="education">
+                                                </div>
+                                            </div>
+                                            <div class="single-education-box">
+                                                <div class="single-education-img">
+                                                    <img class="w-100" src="assets/images/education.png"
+                                                        alt="education">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="section-volto-details" class="section">
+            <div class="content-page">
+                <div class="slidebar-box">
+                    <div class="container">
+                        <div class="slidebox-top">
+                            <div class="slidebox-left">
+                                <div class="button-box">
+                                    <button id="back-to-hero" class="sidebar-toggle-btn back-to-hero"><i
+                                            class="fa-solid fa-x"></i></button>
+                                </div>
+                            </div>
+                            <div class="slidebox-middle">
+                                <h2 class="slidebar-top-title">IL PENSIERO PRENDE FORMA</h2>
+                            </div>
+                            <div class="slidebox-right">
+                                <div class="language-btn-box">
+                                    <button type="button" class="language-btn active">EN</button>
+                                    <button type="button" class="language-btn">IT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <hr class="divider">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 sidebar-bullet">
+                                <div class="sidebar-menu-list">
+                                    <button class="prev-slide slick-btn">
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </button>
+                                    <ul class="custom-dots">
+                                        <li class="active">
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>EPPUR SI MUOVE </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL PENSIERO PRENDE FORMA </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>CI PENSO IO </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL VOLTO DELLA TUA AZIENDA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>L'ABITO FA IL MONACO</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>VITA NOVA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>È BELLO CIÒ CHE È BELLO, NON CIÒ CHE PIACE</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                    <button class="next-slide slick-btn">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 custom-width-set">
+                                <div class="pensiero-content-wrapper">
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Corporate e Restyling Logo <span>“ Galleria
+                                                d'Arte
+                                                Moderna Aroldo Bonzagni /</span> Cento FE ”
+                                            Poster a scorrimento verticale
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/galleria.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Corporate e Restyling Logo <span>“ Galleria
+                                                d'Arte
+                                                Moderna Aroldo Bonzagni /</span> Cento FE ”
+                                            Poster a scorrimento verticale
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/corporate.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Corporate per <span>“ De Cecco ”</span>
+                                            Restyling Logo & Stand Fieristico
+                                            Poster a scorrimento verticale
+                                        </h3>
+                                        <div class="pensiero-slider-1">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/altamarea-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/altamarea-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="section-monaco-details" class="section">
+            <div class="content-page">
+                <div class="slidebar-box">
+                    <div class="container">
+                        <div class="slidebox-top">
+                            <div class="slidebox-left">
+                                <div class="button-box">
+                                    <button id="back-to-hero" class="sidebar-toggle-btn back-to-hero"><i
+                                            class="fa-solid fa-x"></i></button>
+                                </div>
+                            </div>
+                            <div class="slidebox-middle">
+                                <h2 class="slidebar-top-title">L'ABITO FA IL MONACO</h2>
+                            </div>
+                            <div class="slidebox-right">
+                                <div class="language-btn-box">
+                                    <button type="button" class="language-btn active">EN</button>
+                                    <button type="button" class="language-btn">IT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <hr class="divider">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 sidebar-bullet">
+                                <div class="col-lg-1 sidebar-bullet">
+                                    <div class="sidebar-menu-list">
+                                        <button class="prev-slide slick-btn">
+                                            <i class="fa-solid fa-angle-up"></i>
+                                        </button>
+                                        <ul class="custom-dots">
+                                            <li class="active">
+                                                <button class="sidebar-menu">
+                                                    <div class="border-circle">
+                                                        <span class="menu-circle"></span>
+                                                        <p>EPPUR SI MUOVE </p>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="sidebar-menu">
+                                                    <div class="border-circle">
+                                                        <span class="menu-circle"></span>
+                                                        <p>IL PENSIERO PRENDE FORMA </p>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="sidebar-menu">
+                                                    <div class="border-circle">
+                                                        <span class="menu-circle"></span>
+                                                        <p>CI PENSO IO </p>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="sidebar-menu">
+                                                    <div class="border-circle">
+                                                        <span class="menu-circle"></span>
+                                                        <p>IL VOLTO DELLA TUA AZIENDA</p>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="sidebar-menu">
+                                                    <div class="border-circle">
+                                                        <span class="menu-circle"></span>
+                                                        <p>L'ABITO FA IL MONACO</p>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="sidebar-menu">
+                                                    <div class="border-circle">
+                                                        <span class="menu-circle"></span>
+                                                        <p>VITA NOVA</p>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="sidebar-menu">
+                                                    <div class="border-circle">
+                                                        <span class="menu-circle"></span>
+                                                        <p>È BELLO CIÒ CHE È BELLO, NON CIÒ CHE PIACE</p>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                        <button class="next-slide slick-btn">
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 custom-width-set">
+                                <div class="pensiero-content-wrapper">
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Banner per <span>“ Burger King ”</span>
+                                            Poster a scorrimento verticale
+
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/burger-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Packaging <span>“ Grey Goose Vodka ”</span>
+                                            Poster a scorrimento verticale
+
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/burger-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section-nova-details" class="section">
+            <div class="content-page">
+                <div class="slidebar-box">
+                    <div class="container">
+                        <div class="slidebox-top">
+                            <div class="slidebox-left">
+                                <div class="button-box">
+                                    <button id="back-to-hero" class="sidebar-toggle-btn back-to-hero"><i
+                                            class="fa-solid fa-x"></i></button>
+                                </div>
+                            </div>
+                            <div class="slidebox-middle">
+                                <h2 class="slidebar-top-title">VITA NOVA</h2>
+                            </div>
+                            <div class="slidebox-right">
+                                <div class="language-btn-box">
+                                    <button type="button" class="language-btn active">EN</button>
+                                    <button type="button" class="language-btn">IT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <hr class="divider">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 sidebar-bullet">
+                                <div class="sidebar-menu-list">
+                                    <button class="prev-slide slick-btn">
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </button>
+                                    <ul class="custom-dots">
+                                        <li class="active">
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>EPPUR SI MUOVE </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL PENSIERO PRENDE FORMA </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>CI PENSO IO </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL VOLTO DELLA TUA AZIENDA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>L'ABITO FA IL MONACO</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>VITA NOVA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>È BELLO CIÒ CHE È BELLO, NON CIÒ CHE PIACE</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                    <button class="next-slide slick-btn">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 custom-width-set">
+                                <div class="pensiero-content-wrapper">
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Cover Art di “ <span>Leave Me Alone</span> /
+                                            New Order
+                                            ”
+                                            Composizione grafica e fotografica
+                                            Formato 1080 x 1080 px
+
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/vita-nova-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title"><span>Formato</span> 1920 x 1080 px
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/vita-nova-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title"><span>Formato</span> 1920 x 1080 px
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/vita-nova-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title"><span>Formato</span> 1920 x 1080 px
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/vita-nova-3.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Cover Art di “ <span>Pigro</span> / Ivan
+                                            Graziani ”
+                                            Composizione grafica e fotografica
+
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box pb-80">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/vita-nova-4.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box pb-80">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/vita-nova-5.png" alt="segno">
+                                                </div>
+                                            </div>
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/vita-nova-6.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="section-bello-details" class="section">
+            <div class="content-page">
+                <div class="slidebar-box">
+                    <div class="container">
+                        <div class="slidebox-top">
+                            <div class="slidebox-left">
+                                <div class="button-box">
+                                    <button id="back-to-hero" class="sidebar-toggle-btn back-to-hero"><i
+                                            class="fa-solid fa-x"></i></button>
+                                </div>
+                            </div>
+                            <div class="slidebox-middle">
+                                <h2 class="slidebar-top-title">È BELLO CIÒ CHE È BELLO, NON CIÒ CHE PIACE</h2>
+                            </div>
+                            <div class="slidebox-right">
+                                <div class="language-btn-box">
+                                    <button type="button" class="language-btn active">EN</button>
+                                    <button type="button" class="language-btn">IT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <hr class="divider">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-1 sidebar-bullet">
+                                <div class="sidebar-menu-list">
+                                    <button class="prev-slide slick-btn">
+                                        <i class="fa-solid fa-angle-up"></i>
+                                    </button>
+                                    <ul class="custom-dots">
+                                        <li class="active">
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>EPPUR SI MUOVE </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL PENSIERO PRENDE FORMA </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>CI PENSO IO </p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>IL VOLTO DELLA TUA AZIENDA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>L'ABITO FA IL MONACO</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>VITA NOVA</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="sidebar-menu">
+                                                <div class="border-circle">
+                                                    <span class="menu-circle"></span>
+                                                    <p>È BELLO CIÒ CHE È BELLO, NON CIÒ CHE PIACE</p>
+                                                </div>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                    <button class="next-slide slick-btn">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-11 custom-width-set">
+                                <div class="pensiero-content-wrapper">
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Landing Page per <span>“ Versace ”</span>
+                                            Restyling Website
+                                            Poster a scorrimento verticale
+
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/versace-1.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-pensiero-box pb-80">
+                                        <h3 class="single-pensiero-title">Dem Newsletter per <span>“ Versace ”</span>
+                                            Restyling Website
+
+                                        </h3>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/versace-2.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pensiero-slider">
+                                            <div class="single-segno-box">
+                                                <div class="single-segno-img">
+                                                    <img class="w-100" src="assets/images/versace-3.png" alt="segno">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- All Details Section End -->
     </div>
 
     <!-- jQuery -->
@@ -434,6 +1717,9 @@
     <!-- Font Awesome -->
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/fontawesome.min.js"></script>
+    <!-- Modal video -->
+    <!-- <script src="assets/js/modal-video.min.js"></script> -->
+    <script src="assets/js/jquery-modal-video.min.js"></script>
     <!-- Main Script -->
     <script src="assets/js/main.js"></script>
     <script>
@@ -470,6 +1756,11 @@
             $dots.on('click', function () {
                 var index = $(this).index();
                 $('.menu-dot-slider').slick('slickGoTo', index); // Go to the corresponding slide
+            });
+
+
+            $('.sidebar-bullet .custom-dots li,.sidebar-bullet .prev-slide,.sidebar-bullet .next-slide').click(function () {
+                $('#section-pensiero-details, #section-penso-details, #section-volto-details, #section-monaco-details, #section-nova-details, #section-bello-details').fadeOut(1000);
             });
         });
     </script>

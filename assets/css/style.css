@@ -219,7 +219,7 @@ h2 {
     text-align: left;
 }
 
-.content-page .sidebar-menu.active p {
+.content-page .sidebar-menu p {
     display: none;
 }
 
@@ -879,9 +879,9 @@ html {
     display: none;
 }
 
-#section-gallary {
+/* #section-gallary {
     display: none;
-}
+} */
 /* Button End */
 
 /* Image Start */
@@ -995,4 +995,23 @@ html {
 .slick-btn {
     font-size: 24px;
     margin-left: 6px;
+    color: #daff53;
+}
+
+/* #section-pensiero-details {
+    display: none;
+} */
+#section-gallary,
+#section-pensiero-details,
+#section-penso-details,
+#section-volto-details,
+#section-monaco-details,
+#section-nova-details,
+#section-bello-details {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
 }

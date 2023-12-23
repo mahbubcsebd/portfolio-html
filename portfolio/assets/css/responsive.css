@@ -1,0 +1,45 @@
+@media screen and (max-width: 1600px) {
+    .hero-container-img {
+        width: 30% !important;
+    }
+
+    .section-lg-img-box {
+        width: 290px !important;
+    }
+
+    .nova-sm-img-box {
+        top: 221px;
+        width: 180px;
+    }
+
+    .pensiero-sm-img-box {
+        top: 180px;
+    }
+
+    .penso-sm-img-box {
+        top: 223px;
+    }
+
+    .volto-sm-img-box {
+        top: 188px;
+        width: 120px;
+        height: 205px;
+    }
+
+    .monaco-sm-img-box {
+        top: 204px;
+        width: 180px;
+        height: 260px;
+    }
+
+    .bello-sm-img-box {
+        top: 277px;
+        width: 90px;
+        transform: translate(-65%, 0);
+    }
+
+    .mouve-sm-img-box {
+        width: 254px;
+        top: 160px;
+    }
+}
