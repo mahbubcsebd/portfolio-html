@@ -187,7 +187,8 @@ h2 {
     align-items: center;
 }
 
-.active .sidebar-menu .border-circle {
+.active .sidebar-menu .border-circle,
+.content-dot .sidebar-menu .border-circle {
     border: 1px solid #daff53;
 }
 
